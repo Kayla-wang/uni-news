@@ -2,7 +2,7 @@
 	"pages": [{
 		"path": "pages/index/index",
 		"style": {
-			"navigationBarTitleText": "uni-ui基础项目"
+			"navigationBarTitleText": "新闻"
 		}
 	}    ,{
             "path" : "pages/about/about",
@@ -16,23 +16,29 @@
 	"globalStyle": {
 		"navigationBarTextStyle": "white",
 		"navigationBarTitleText": "uni-app",
-		"navigationBarBackgroundColor": "#007AFF",
+		"navigationBarBackgroundColor": "#009933",
 		"backgroundColor": "#FFFFFF"
 	},
 	"tabBar": {
 	    "color": "#7A7E83",
-	    "selectedColor": "#3cc51f",
+	    "selectedColor": "#009933",
 	    "borderStyle": "black",
 	    "backgroundColor": "#ffffff",
 	    "list": [{
 	        "pagePath": "pages/index/index",
+			"iconPath": "static/image/index.png",
+			"selectedIconPath": "static/image/index-active.png",
 	        "text": "首页"
 	    }, {
 	        "pagePath": "pages/list/list",
-	        "text": "列表"
+			"iconPath": "static/image/video.png",
+			"selectedIconPath": "static/image/video-active.png",
+	        "text": "视频"
 	    },{
 	        "pagePath": "pages/about/about",
-	        "text": "关于我们"
+			"iconPath": "static/image/my.png",
+			"selectedIconPath": "static/image/my-active.png",
+	        "text": "我的"
 	    }]
 	}
 }
