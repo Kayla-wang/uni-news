@@ -1,6 +1,6 @@
 <template>
 	<view>
-		<text>列表</text>
+		<text>视频</text>
 	</view>
 </template>
 
