@@ -13,6 +13,8 @@
 		},
 		methods: {
 
+		},
+		created(){
 		}
 	}
 </script>
