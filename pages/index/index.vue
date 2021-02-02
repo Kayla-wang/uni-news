@@ -5,6 +5,7 @@
 </template>
 
 <script>
+	import { login } from './api.js'; 
 	export default {
 		data() {
 			return {
