@@ -1,5 +1,4 @@
 //把配置项单独处理
-
 import baseUrl from '../baseUrl.js'; 
 function service(options = {}) {
        options.url = `${baseUrl}${options.url}`;
@@ -13,7 +12,7 @@ function service(options = {}) {
         options.success = (res) => {
             resolved(res);
         }
-              //错误
+        //错误
         options.fail = (err) => {
             rejected(err); //错误
         }
