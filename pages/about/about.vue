@@ -1,6 +1,6 @@
 <template>
 	<view>
-		<text>关于我们</text>
+		<!-- <text>关于我们</text> -->
 	</view>
 </template>
 

@@ -2,13 +2,13 @@
   "pages": [
     "pages/index/index",
     "pages/about/about",
-    "pages/video/video"
+    "pages/news/news"
   ],
   "subPackages": [],
   "window": {
-    "navigationBarTextStyle": "white",
+    "navigationBarTextStyle": "black",
     "navigationBarTitleText": "uni-app",
-    "navigationBarBackgroundColor": "#009933",
+    "navigationBarBackgroundColor": "#FFFFFF",
     "backgroundColor": "#FFFFFF"
   },
   "tabBar": {
@@ -24,10 +24,10 @@
         "text": "首页"
       },
       {
-        "pagePath": "pages/video/video",
+        "pagePath": "pages/news/news",
         "iconPath": "static/image/tabBar/video.png",
         "selectedIconPath": "static/image/tabBar/video-active.png",
-        "text": "视频"
+        "text": "资讯"
       },
       {
         "pagePath": "pages/about/about",
@@ -37,5 +37,6 @@
       }
     ]
   },
-  "usingComponents": {}
+  "usingComponents": {},
+  "sitemapLocation": "sitemap63.json"
 }

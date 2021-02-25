@@ -1,1 +1,1 @@
-<view class="container"><view class="intro">首页</view></view>
+<view class="weatherIndex"><view class="weatherIndexToday"><view class="location"><text class="locationIcon"></text>{{address}}<text class="locationIcon"></text></view></view><view class="weatherIndexfiveDays"></view><view class="weatherIndexLife"></view></view>

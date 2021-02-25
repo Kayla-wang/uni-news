@@ -1,7 +1,7 @@
 import request from '../../common/request.js'
-export function login(data) {
+export function simpleWeatherquery(data) {
   return request({
-    url: '/user/login',
+    url: '/simpleWeather/query',
     method: 'POST',
     data: data
   })

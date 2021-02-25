@@ -1,23 +1,27 @@
 <script>
+
 export default {
 	onLaunch: function() {
-		console.log('App Launch');
+		// console.log('App Launch');
 	},
 	onShow: function() {
-		console.log('App Show');
+		// console.log('App Show');
 	},
 	onHide: function() {
-		console.log('App Hide');
+		// console.log('App Hide');
 	}
 };
 </script>
 
 <style>
-/* 解决头条小程序组件内引入字体不生效的问题 */
-/* #ifdef MP-TOUTIAO */
+/* 引入阿里图标库 */
 @font-face {
-	font-family: uniicons;
-	src: url('/static/uni.ttf');
+  font-family: 'iconfont';  /* project id 2387725 */
+  src: url('//at.alicdn.com/t/font_2387725_hb5qiogxlab.eot');
+  src: url('//at.alicdn.com/t/font_2387725_hb5qiogxlab.eot?#iefix') format('embedded-opentype'),
+  url('//at.alicdn.com/t/font_2387725_hb5qiogxlab.woff2') format('woff2'),
+  url('//at.alicdn.com/t/font_2387725_hb5qiogxlab.woff') format('woff'),
+  url('//at.alicdn.com/t/font_2387725_hb5qiogxlab.ttf') format('truetype'),
+  url('//at.alicdn.com/t/font_2387725_hb5qiogxlab.svg#iconfont') format('svg');
 }
-/* #endif */
 </style>

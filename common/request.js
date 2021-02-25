@@ -1,7 +1,7 @@
 //把配置项单独处理
-import baseUrl from '../baseUrl.js'; 
+import urls from '../baseUrl.js'; 
 function service(options = {}) {
-       options.url = `${baseUrl}${options.url}`;
+       options.url = `${urls.baseUrl}${options.url}`;
           //配置请求头
         options.header = {
         'content-type': 'application/x-www-form-urlencoded'
